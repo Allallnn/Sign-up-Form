@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up-Form</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!-- <img src="assets/Image20250415171725.png" alt="mobile-bg" id="mobile-img"> -->
-<!-- <img src="assets/Image20250415171728.png" alt="desktop img" id="desktop-img"> -->
+  </head>
+  <body>
     <main>
-        <section class="section-1">
-<h2>Learn to code by watching others</h2>
-<p id="section-1-p">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
-<div>
-    <p><span>Try it for free 7 days</span> then $20/mo. thereafter</p>
-</div>
-        </section>
-        <section class="section-2">
-<div>
-    <form>
-        <input type="Firstname">
-        <input type="Lastname">
-        <input type="email">
-        <input type="password">
-    </form>
-    <p>By clicking the button you are agreeing to our <span>Terms and Services</span></p>
-    <button>CLAIM YOUR FREE TRIAL</button>
-</div>
-        </section>
+      <section class="section-1">
+        <h2>Learn to code by<br />watching others</h2>
+        <p id="section-1-p">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section class="section-2">
+        <div class="offer-box">
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+
+        <div class="form-container">
+          <form>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="First Name"
+              required
+
+            />
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Last Name"
+              required
+
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+
+            />
+            <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          </form>
+
+          <p class="terms-text">
+            By clicking the button, you are agreeing to our
+            <span class="terms">Terms and Services</span>
+          </p>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
